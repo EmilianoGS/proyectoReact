@@ -1,0 +1,217 @@
+header{
+    background-image:linear-gradient(to right,#2c4cff,#40a3ff );
+    box-shadow: 0 5px 8px rgb(156, 156, 156);
+}
+
+
+.active{
+    border-bottom: 2px solid #4783c4;
+    padding: 5px;
+    font-weight: bold;    
+}
+
+.submenu ul{
+    padding:0;
+    list-style:none;
+    display:inline-block;
+}
+.submenu{
+    margin:0;
+    width:auto;
+    display:none;
+    background-color: #fff;
+    border:1px solid #4783c4;
+    padding: 5px;
+    position:absolute;
+    z-index:5;
+}
+.sesion{
+margin:0;
+width:auto;
+background-color: #fff;
+border:1px solid #4783c4;
+padding: 5px;
+position:absolute;
+z-index:5;
+}
+.menu{
+    float:left;
+}
+.menu:hover .submenu{
+
+    display:block;
+}
+
+.clear{
+    clear:both;
+}
+
+
+.contain{
+    padding-top:60px;
+}
+
+.spinner{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#listaUl{
+    list-style: none;
+    
+}
+
+#listaUl li{
+    display:inline;
+}
+
+#paginacion{
+    text-align:center;
+}
+
+.NroPagActive{
+   
+   font-size:22px;
+   
+}
+
+.button{
+    border-radius: 5px;
+    border:none;
+    background-color: #007bff;
+    color:#fff;
+    vertical-align: middle;
+    line-height: 1.5;
+    outline:none;
+    padding: .25rem .5rem;    
+}
+
+.show{
+    display: block;
+}
+#idSesion{
+    text-align:center;
+   
+    margin: 0;
+    position:absolute;
+    right: 8px;
+    border-radius: 5px;
+    border:1px solid #007bff;
+    box-sizing: border-box;
+    width: 120px;
+    z-index:30;
+    background-color: #fff;
+}
+#ulSesion{
+    margin:0;
+    text-align:center;
+    padding: 0;
+    list-style: none;
+    display:block;
+    padding:8px;
+    height:auto;
+}
+#ulSesion li{
+    padding:5px;
+    line-height: 23px;
+    display:block;
+    height: 30px;
+    
+}
+#ulSesion li p{
+    color: #007bff;
+    
+    
+    vertical-align: middle;
+}
+
+#usuario{
+    background-color: #007bff;
+    padding: 8px;
+    color: #fff;
+    border-radius:5px; 
+    text-align: right;
+    border:1px solid #fff;
+}
+#usuario:hover{
+    opacity: 0.7;
+}
+
+.detalleProds{
+    margin-top: 60px;
+    width: 40%;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+.descripcion{
+    color:#8d8d8d;
+    font-size:20px;
+    font-weight: 400;
+  
+}
+.precio{
+    font-size: 25px;
+    color:rgb(66, 173, 107);
+    font-weight: 500;
+}
+
+#busquedaProd{
+    
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    border-radius:20px;
+    border: 1px solid #dedede;
+    padding:7px 15px;
+    width: 300px;
+    outline:none;
+}
+#busquedaProd:focus{
+    border-radius:20px;
+    border: 3px solid #dedede;
+}
+
+#buscar{
+    border-radius: 10px;
+    background-color: #fff;
+    color: #40a3ff;
+    font-size: 20px;
+    border: none;
+    margin-left: 20px;
+    outline:none;
+    line-height: 20px;
+}
+#valorBuscado{
+    display:inline;
+    font-weight: 700;
+}
+
+#inputBusqueda{
+    border:none;
+     outline:none;
+     width:80%;
+}
+
+#listaProductos{
+    border-radius: 10px;
+    position:absolute;
+   z-index:6;
+   right: 50px;
+   top: 100px;
+    background-color:#acdddf;
+    list-style: none;
+    padding: 13px;
+    text-align:left;
+}
+#listaProductos ul{
+    text-align:left;
+}
+#listaProductos li{
+    font-size:12px;
+    margin-left: 0;
+    text-align:left;
+}
+ 
+

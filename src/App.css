@@ -1,0 +1,100 @@
+
+html{
+  padding-bottom:70px;
+}
+.App {
+  text-align: center;
+  margin: 80px auto 0 auto;
+  background-color: #edf5fd ;
+  border-radius: 20px;
+  width: 70%;
+  padding: 45px;
+
+}
+.App #homeTitle{
+  margin-bottom: 50px;
+  
+  float:left;
+  line-height: 180px;
+  width:35%;
+}
+
+#listaProductos{
+    
+  position:absolute;
+ z-index:6;
+  background-color:#6fc7ca;
+  
+}
+
+#botonPedido{
+  border:none;
+  padding:10px 40px;
+  border-radius:20px;
+margin-top: 40px;
+  background-image:linear-gradient(to right,#2c4cff,#40a3ff );
+  
+}
+#botonPedido p{
+  outline:none;
+  color:#fff;
+}
+.clear{
+  clear:both;
+}
+.App img{
+  float: left;
+  margin-left: 20px;
+}
+.App h2{
+  margin-top: 80px;
+  margin-bottom:20px ;
+  text-align:left;
+}
+.App p{
+  line-height: 20px;
+  margin:0;
+  text-align:left;
+  font-weight: 500;
+  color:rgb(134, 134, 134);
+}
+form{
+width: 100%;
+margin:auto;
+padding: 0px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
